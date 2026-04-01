@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Tech Store</div>
+        <nav>
+            <ul>
+                <li>Главная</li>
+                <li>Ассортимент</li>
+                <li>Помощь</li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="tab-content active">
+            <h1>Добро пожалывать в Techno Store</h1>
+            <p>У нас вы найдете смартфоны, ноутбуки, ПК, микроволновки и многое другое</p>
+        </section>
+
+        <section id="product" class="tab-content">
+            <h1>Ассортимент товаров</h1>
+            <div class="filters">
+                <input type="text" id="search" placeholder="Поиск по названию">
+                <input type="number" id="min-price" placeholder="Мин. цена">
+                <input type="number" id="max-price" placeholder="Макс. цена">
+                <button id="filter-btn">Фильтровать</button>
+            </div>
+
+            <div class="product-list" class="product-list">
+            </div>
+        </section>
+
+        <section id="contact" class="tab-content">
+            <h1>Помощь клиентам</h1>
+            <p>Если у вас возникли вопросы, свяжитесь с нашей подержкой:support@techo.com</p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
