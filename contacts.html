@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Контакты интернет-магазина TechStore." />
+  <title>TechStore — Контакты</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Перейти к содержимому</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">TechStore</a>
+
+      <nav aria-label="Основное меню">
+        <ul class="nav-list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="contacts.html" aria-current="page">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-banner">
+      <div class="container">
+        <h1>Контакты</h1>
+        <p>Свяжитесь с нами удобным для вас способом.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contacts-grid">
+        <article class="contact-card">
+          <h2>Наши контакты</h2>
+          <ul class="contact-list">
+            <li><strong>Телефон:</strong> <a href="tel:+77000000000">+7 (705) 123 45 67</a></li>
+            <li><strong>Email:</strong> <a href="mailto:info@techstore.kz">nechaevegor@gmail.com</a></li>
+            <li><strong>Адрес:</strong> г. Усть-Каменогорск, ул. Абая 10/1 , 10</li>
+          </ul>
+        </article>
+
+        <article class="contact-card">
+          <h2>Форма обратной связи</h2>
+          <form class="contact-form" action="#" method="post">
+            <label for="name">Имя</label>
+            <input type="text" id="name" name="name" placeholder="Введите ваше имя" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Введите ваш email" />
+
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" rows="6" placeholder="Напишите ваш вопрос"></textarea>
+
+            <button type="submit" class="btn btn-primary">Отправить</button>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 TechStore. Все права защищены.</p>
+    </div>
+  </footer>
+</body>
+</html>
