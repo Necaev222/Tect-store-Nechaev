@@ -1,0 +1,27 @@
+{
+  "name": "tect-store-nechaev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Necaev222/Tect-store-Nechaev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Necaev222/Tect-store-Nechaev/issues"
+  },
+  "homepage": "https://github.com/Necaev222/Tect-store-Nechaev#readme",
+  "dependencies": {
+    "cars": "^1.1.6",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mysql2": "^3.20.0"
+  }
+}
