@@ -474,3 +474,64 @@ textarea:focus-visible {
     padding: 22px;
   }
 }
+
+/* Плавное появление */
+header,
+.hero-content,
+.hidden {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+header.show,
+.hero-content.show,
+.hidden.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Анимация карточек */
+.product-card,
+.category-card,
+.contact-card,
+.about-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.8s ease;
+}
+
+.product-card.hovered,
+.category-card:hover,
+.contact-card:hover,
+.about-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Анимация кнопок */
+.btn,
+.buy-btn,
+button {
+  transition: transform 0.2s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover,
+.buy-btn:hover,
+button:hover {
+  transform: translateY(-2px);
+}
+
+.btn.clicked,
+.buy-btn.clicked,
+button.clicked {
+  transform: scale(0.95);
+}
+
+/* Заголовки секций */
+.section-title {
+  transition: all 0.8s ease;
+}
+
+/* Плавный скролл запасным способом */
+html {
+  scroll-behavior: smooth;
+}
