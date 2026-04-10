@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Подробная страница товара интернет-магазина TechStore." />
+  <title>TechStore — Товар</title>
+  <link rel="icon" type="image/png" href="img/Технологичный логотип в футуристическом стиле.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Перейти к содержимому</a>
+
+  <header class="site-header show">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">TechStore:Nechaev</a>
+
+      <nav aria-label="Основное меню">
+        <ul class="nav-list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="catalog.html" aria-current="page">Каталог</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-banner product-banner">
+      <div class="container">
+        <p class="product-breadcrumbs"><a href="catalog.html">Каталог</a> / <span id="product-breadcrumb-name">Товар</span></p>
+        <h1 id="product-title">Загрузка товара...</h1>
+        <p id="product-short-description">Пожалуйста, подождите.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container product-detail-layout" id="product-detail"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 TechStore. Все права защищены. ООО: Нечаев Егор</p>
+    </div>
+  </footer>
+
+  <script src="products-data.js"></script>
+  <script src="product.js"></script>
+</body>
+</html>
